@@ -5,4 +5,4 @@ creditHeaders = Array.from(possibleTables).filter(table => {
     return reg.match(table.innerHTML);
 });
 
-let classes = Array.from(creditHeaders[0].nextElementSibling.nextElementSibling.children[1].children);
+let courses = Array.from(creditHeaders[0].nextElementSibling.nextElementSibling.children[1].children);
